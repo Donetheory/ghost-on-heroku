@@ -18,8 +18,10 @@
                 <span>
                 {{tags prefix="" separator=", "}}</span>
             </span>{{/if}}
+            {{> comments-link}}
         </section>
     </article>
     {{~/foreach}}
 </section>
 {{pagination}}
+{{> comments-count}}
